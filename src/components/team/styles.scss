@@ -1,0 +1,54 @@
+// .teamComponentWrapper {
+//   color: black;
+//   .teamMemberWrapper {
+//     margin: 10px 0;
+//     .editContainer {
+//       .textfieldContainer {
+//         width: 200px;
+//       }
+//     }
+//     .displayContainer {
+//       .teamMemberLabel {
+//         flex: auto;
+//         width: 200px;
+//         overflow: hidden;
+//         white-space: nowrap;
+//         text-overflow: ellipsis;
+//         text-align: left;
+//       }
+//     }
+//   }
+//   .teamContentWrapper {
+//     margin-bottom: 10px;
+//     .teamComponentHeader,
+//     .titleWrapper {
+//       width: 300px;
+//     }
+//     .titleWrapper {
+//       text-overflow: ellipsis;
+//       overflow: hidden;
+//       white-space: nowrap;
+//     }
+//   }
+// }
+
+.teamNewComponentContainer {
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+  .titleLabel {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .countLabel {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .winnerImageContainer {
+    position: absolute;
+    top: 0;
+    right: -120px;
+    width: 200px;
+    transform: rotate(45deg);
+  }
+}

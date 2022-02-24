@@ -1,0 +1,21 @@
+.pointsEntryContainer {
+  width: 100%;
+  .labelText {
+    padding: 10px;
+  }
+  .title {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80%;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+  }
+  .participants,
+  .teamType {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+}

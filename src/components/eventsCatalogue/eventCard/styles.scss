@@ -1,0 +1,38 @@
+.eventCardContainer {
+  border-top-right-radius: 20px;
+  .cardContentWrapper {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    .label {
+      font-size: 20px;
+      width: 100px;
+      position: absolute;
+      right: 0px;
+      top: -10px;
+      padding: 15px;
+      background: black;
+      color: white;
+      border-top-right-radius: 20px;
+    }
+    .title {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 80%;
+      text-align: left;
+      text-overflow: ellipsis;
+      margin-bottom: 10px;
+    }
+    .organizer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .date {
+      width: fit-content;
+      margin-bottom: 10px;
+    }
+  }
+}
